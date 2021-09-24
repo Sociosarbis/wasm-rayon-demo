@@ -1,3 +1,5 @@
+mod ffi;
+
 #[cfg(feature = "parallel")]
 use rayon::prelude::*;
 use wasm_bindgen::prelude::*;
